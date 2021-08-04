@@ -20,7 +20,7 @@ namespace Xmlprocessor
 
             List<Asset> lst = new List<Asset>();
             //XmlDocument doc = new XmlDocument();
-            XmlNodeList equiplist = doc.SelectNodes(string.Format("/PlantModel/{0}",instru));
+            XmlNodeList equiplist = doc.SelectNodes(string.Format("/PlantModel/{0}",instru ));
             foreach (XmlNode xn in equiplist)
             {
 
